@@ -104,4 +104,12 @@ extension RootViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: view.frame.width, height: 120)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = UIViewController()
+        vc.modalPresentationStyle = .fullScreen
+        vc.view.backgroundColor = .systemPink
+        present(vc, animated: true)
+        
+    }
 }
