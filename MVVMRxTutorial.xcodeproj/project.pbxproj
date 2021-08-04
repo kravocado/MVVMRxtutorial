@@ -19,6 +19,7 @@
 		9C43300626B3D718004D402F /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43300526B3D718004D402F /* RootViewModel.swift */; };
 		9C43300826B3E019004D402F /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43300726B3E019004D402F /* ArticleViewModel.swift */; };
 		9C43300B26B3EB2D004D402F /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43300A26B3EB2D004D402F /* ArticleCell.swift */; };
+		9C43300D26BA6E9C004D402F /* descriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43300C26BA6E9C004D402F /* descriptionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9C43300526B3D718004D402F /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
 		9C43300726B3E019004D402F /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		9C43300A26B3EB2D004D402F /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		9C43300C26BA6E9C004D402F /* descriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descriptionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				9C43300A26B3EB2D004D402F /* ArticleCell.swift */,
+				9C43300C26BA6E9C004D402F /* descriptionCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				9C432FFD26B3C561004D402F /* Coordinator.swift in Sources */,
 				9C43300826B3E019004D402F /* ArticleViewModel.swift in Sources */,
 				9C432FE426B3C41A004D402F /* AppDelegate.swift in Sources */,
+				9C43300D26BA6E9C004D402F /* descriptionCell.swift in Sources */,
 				9C43300626B3D718004D402F /* RootViewModel.swift in Sources */,
 				9C43300326B3D0BC004D402F /* ArticleService.swift in Sources */,
 				9C43300B26B3EB2D004D402F /* ArticleCell.swift in Sources */,
