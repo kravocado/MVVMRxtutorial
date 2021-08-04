@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import SDWebImage
+// git똥찬 개발인생!!
 
 class ArticleCell: UICollectionViewCell {
     
